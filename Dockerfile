@@ -9,7 +9,7 @@ RUN apt-get update \
         libz-dev \
 
     # 官方 PHP 镜像内置命令，安装 PHP 依赖
-    && docker-php-ext-install -j$(nproc) \
+    && docker-php-ext-install \
         mcrypt \
         mbstring \
         pdo_mysql \
