@@ -6,7 +6,7 @@ MAINTAINER Rod <rod@protobia.tech>
 RUN apt-get update \
     && apt-get install -y \
         libmcrypt-dev \
-        libz-dev
+        libz-dev \
 
     # 官方 PHP 镜像内置命令，安装 PHP 依赖
     && docker-php-ext-install -j$(nproc) \
