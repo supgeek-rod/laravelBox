@@ -1,4 +1,4 @@
-FROM php:5.6-apache
+FROM daocloud.io/php:5.6-apache
 MAINTAINER Rod <rod@protobia.tech>
 
 ##
